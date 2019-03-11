@@ -59,9 +59,9 @@ class SiswaSMA(Manusia):
         self.uangSaku = uangSaku
         self.alamat = alamat
     def __str__(self):
-        a = 'Nama      : ' + str(self.nama) \
-            + 'NISN      : ' + str(self.nisn) \
-            + 'Alamat    : ' + str(self.alamat) \
+        a = 'Nama      : ' + str(self.nama) + '\n' \
+            + 'NISN      : ' + str(self.nisn) + '\n' \
+            + 'Alamat    : ' + str(self.alamat) + '\n' \
             + 'Uang Saku : ' + str(self.uangSaku)
         return a
     
