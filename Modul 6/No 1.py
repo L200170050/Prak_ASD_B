@@ -19,6 +19,8 @@ c10 = MhsTIF('Khalid', 29, 'Purwodadi', 2650000)
 
 daftar = [c0.no, c1.no, c2.no, c3.no, c4.no, c5.no, c6.no, c7.no, c8.no, c9.no, c10.no]
 
+daftar1 = [c0.no, c1.no, c2.no, c3.no, c4.no, c5.no, c6.no, c7.no, c8.no, c9.no, c10.no]
+
 def mergeSort(A):
     if len(A) > 1:
         mid = len(A) // 2
@@ -95,6 +97,6 @@ def quickSort(A):
     return A
 
 print('\n')
-print(daftar)
-quickSort(daftar)
-print(daftar)
+print(daftar1)
+quickSort(daftar1)
+print(daftar1)
