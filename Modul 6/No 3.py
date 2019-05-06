@@ -106,7 +106,7 @@ def quickSortBantu(A, awal, akhir):
 def quickSort(A):
     quickSortBantu(A, 0, len(A) - 1)
 
-k = range(6000)
+k = list(range(6000)) 
 kocok(k)
 u_bub = k[:]
 u_sel = k[:]
