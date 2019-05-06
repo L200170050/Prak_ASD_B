@@ -14,21 +14,21 @@ def cariposisiterkecil(A, darisini, sampaisini):
             posisiterkecil = 1
     return posisiterkecil
 
-def bubblesort(A):
+def bubbleSort(A):
     n = len(A)
     for i in range(n - 1):
         for j in range(n - i - 1):
             if A[j] > A[j + 1]:
                 swap(A, j, j + 1)
                 
-def selectionsort(A):
+def selectionSort(A):
     n = len(A)
     for i in range(n - 1):
         indexkecil = cariposisiterkecil(A, i, n)
         if indexkecil != i:
             swap(A, i, indexkecil)
 
-def insertionsort(A):
+def insertionSort(A):
     n = len(A)
     for i in range(1 ,n):
         nilai = A[i]
